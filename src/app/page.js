@@ -86,6 +86,12 @@ export default function Home() {
             </Button>
           </div>
       </div>
+      <div className=" mt-24 flex flex-col space-y-10 justify-center items-center  ">
+        <div className="text-[#0E2368] font-bold text-3xl text-center">Latest Articles</div>
+        <div className=" h-96 w-64 rounded-2xl border-2 border-gray-600"></div>
+        <div className=" h-96 w-64 rounded-2xl border-2 border-gray-600"></div>
+        <div className=" h-96 w-64 rounded-2xl border-2 border-gray-600"></div>
+      </div>
     </>
   );
 }
