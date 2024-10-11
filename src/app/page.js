@@ -73,24 +73,77 @@ export default function Home() {
           five centuries.
         </div>
         <div className="flex justify-center">
-            <Button
-              bg="#E23744"
-              _hover={{
-                background: "red.600",
-              }}
-              color="white"
-              rounded="full"
-              className=""
-            >
-              Read More
-            </Button>
-          </div>
+          <Button
+            bg="#E23744"
+            _hover={{
+              background: "red.600",
+            }}
+            color="white"
+            rounded="full"
+            className=""
+          >
+            Read More
+          </Button>
+        </div>
       </div>
       <div className=" mt-24 flex flex-col space-y-10 justify-center items-center  ">
-        <div className="text-[#0E2368] font-bold text-3xl text-center">Latest Articles</div>
-        <div className=" h-96 w-64 rounded-2xl border-2 border-gray-600"></div>
-        <div className=" h-96 w-64 rounded-2xl border-2 border-gray-600"></div>
-        <div className=" h-96 w-64 rounded-2xl border-2 border-gray-600"></div>
+        <div className="text-[#0E2368] font-bold text-3xl text-center">
+          Latest Articles
+        </div>
+        <div className=" h-[28rem] w-64 flex flex-col space-y-6  items-center rounded-2xl border border-gray-600">
+          <Image
+            src="/tomato.jpeg"
+            alt="tomato picture"
+            rounded="2xl"
+            className=" mt-5 rounded-3xl"
+            width={200}
+            height={100}
+          />
+          <div className="text-[#0E2368] font-bold text-md text-center">
+            Grilled Tomatoes at Home
+          </div>
+          <div className=" text-center text-sm px-4 text-[#444957]">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry standard dummy text
+            ever since the 1500s, when an unknown printer took a galley....
+          </div>
+        </div>
+        <div className=" h-[28rem] w-64 flex flex-col space-y-6  items-center rounded-2xl border border-gray-600">
+          <Image
+            src="/snack.jpeg"
+            alt="snack picture"
+            rounded="2xl"
+            className=" mt-5 rounded-3xl"
+            width={200}
+            height={100}
+          />
+          <div className="text-[#0E2368] font-bold text-md text-center">
+            Snacks for Travel
+          </div>
+          <div className=" text-center text-sm px-4 text-[#444957]">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry standard dummy text
+            ever since the 1500s, when an unknown printer took a galley....
+          </div>
+        </div>
+        <div className=" h-[28rem] w-64 flex flex-col space-y-6  items-center rounded-2xl border border-gray-600">
+          <Image
+            src="/post-workout.jpeg"
+            alt="post workout picture"
+            rounded="2xl"
+            className=" mt-5 rounded-3xl"
+            width={200}
+            height={100}
+          />
+          <div className="text-[#0E2368] font-bold text-md text-center">
+            Post-workout Recipes
+          </div>
+          <div className=" text-center text-sm px-4 text-[#444957]">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry standard dummy text
+            ever since the 1500s, when an unknown printer took a galley....
+          </div>
+        </div>
       </div>
     </>
   );
