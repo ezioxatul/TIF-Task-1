@@ -1,50 +1,51 @@
 import Image from "next/image";
 import { Button } from "@chakra-ui/react";
+
 export default function Home() {
   return (
     <>
-      <div className=" flex flex-col">
-        <div>
+      <div className="relative">
+        {/* First section: Images and Button stacked vertically, aligned to the right */}
+        <div className="relative flex flex-col items-end ">
+        <Button
+            _hover={{
+              background: "white",
+              color: "red.500",
+            }}
+            color="white"
+            pos="absolute"
+            rounded="full"
+            className=" mt-4 right-4 z-30"
+            variant="outline"
+          >
+            Get In Touch
+          </Button>
           <Image
             src="/pizza-image.jpg"
             alt="pizza image"
-            className=" absolute -mt-5 right-0 rounded-bl-[140px] z-10"
+            className="  rounded-bl-[140px] z-10"
             width={420}
             height={350}
           />
           <Image
             src="/vector.png"
             alt="vector art"
-            className=" right-0 absolute z-20"
+            className="absolute right-0 z-20"
             width={420}
             height={370}
           />
-          <Button
-            display="flex"
-            _hover={{
-              background: "white",
-              color: "red.500",
-            }}
-            pos="absolute"
-            right="0"
-            zIndex={30}
-            color="white"
-            rounded="full"
-            mt="4"
-            mr="4"
-            variant="outline"
-          >
-            Get In Touch
-          </Button>
+          
         </div>
 
-        {/* This section contains a heading, a description, and a button for exploring more */}
-        <div>
-          <div className=" font-bold text-3xl text-[#0E2368]">
-            Discover the <span className=" text-[#E23744]">Best</span> Food and
+        {/* Second section (Heading, Description, and Button) */}
+        <div className="mt-8">
+          {" "}
+          {/* Add margin-top to create space between sections */}
+          <div className="font-bold text-3xl text-[#0E2368]">
+            Discover the <span className="text-[#E23744]">Best</span> Food and
             Drinks
           </div>
-          <div className=" text-[#444957 ]">
+          <div className="text-[#444957] mt-2">
             Naturally made Healthcare Products for the better care & support of
             your body.
           </div>
@@ -55,14 +56,11 @@ export default function Home() {
             }}
             color="white"
             rounded="full"
+            className="mt-4"
           >
             Explore Now!
           </Button>
         </div>
-
-        {/* .................. */}
-
-
       </div>
     </>
   );
