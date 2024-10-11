@@ -38,11 +38,11 @@ export default function Home() {
 
         {/* Second section (Heading, Description, and Button) */}
         <div className="mt-8 flex-col items-center justify-center">
-          <div className=" font-bold text-5xl px-3 text-center text-[#0E2368]">
+          <div className=" font-bold text-4xl px-16 text-center text-[#0E2368]">
             Discover the <span className="text-[#E23744]">Best</span> Food and
             Drinks
           </div>
-          <div className="text-[#444957] text-center px-5 mt-5">
+          <div className="text-[#444957] text-center px-10 mt-5">
             Naturally made Healthcare Products for the better care & support of
             your body.
           </div>
