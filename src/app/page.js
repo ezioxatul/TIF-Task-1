@@ -7,7 +7,7 @@ export default function Home() {
       <div className="relative">
         {/* First section: Images and Button stacked vertically, aligned to the right */}
         <div className="relative flex flex-col items-end ">
-        <Button
+          <Button
             _hover={{
               background: "white",
               color: "red.500",
@@ -34,12 +34,11 @@ export default function Home() {
             width={420}
             height={370}
           />
-          
         </div>
 
         {/* Second section (Heading, Description, and Button) */}
         <div className="mt-8 flex-col items-center justify-center">
-          <div className="font-bold text-5xl text-center text-[#0E2368]">
+          <div className=" font-bold text-5xl px-3 text-center text-[#0E2368]">
             Discover the <span className="text-[#E23744]">Best</span> Food and
             Drinks
           </div>
@@ -48,19 +47,44 @@ export default function Home() {
             your body.
           </div>
           <div className="flex justify-center">
-          <Button
-            bg="#E23744"
-            _hover={{
-              background: "red.600",
-            }}
-            color="white"
-            rounded="full"
-            className="mt-6"
-          >
-            Explore Now!
-          </Button>
+            <Button
+              bg="#E23744"
+              _hover={{
+                background: "red.600",
+              }}
+              color="white"
+              rounded="full"
+              className="mt-6"
+            >
+              Explore Now!
+            </Button>
           </div>
         </div>
+      </div>
+      <div className=" bg-[#F0F1F7] h-screen flex flex-col justify-center space-y-10 items-center mt-10">
+        <div className=" text-[#0E2368] font-bold text-3xl text-center">
+          About Us
+        </div>
+        <div className=" text-center px-9 text-[#444957]">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries.
+        </div>
+        <div className="flex justify-center">
+            <Button
+              bg="#E23744"
+              _hover={{
+                background: "red.600",
+              }}
+              color="white"
+              rounded="full"
+              className=""
+            >
+              Read More
+            </Button>
+          </div>
       </div>
     </>
   );
