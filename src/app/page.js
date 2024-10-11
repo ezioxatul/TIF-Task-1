@@ -47,6 +47,7 @@ export default function Home() {
             Naturally made Healthcare Products for the better care & support of
             your body.
           </div>
+          <div className="flex justify-center">
           <Button
             bg="#E23744"
             _hover={{
@@ -54,10 +55,11 @@ export default function Home() {
             }}
             color="white"
             rounded="full"
-            className="mt-6 ml-28"
+            className="mt-6"
           >
             Explore Now!
           </Button>
+          </div>
         </div>
       </div>
     </>
