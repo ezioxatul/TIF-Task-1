@@ -104,8 +104,8 @@ export default function Home() {
           </div>
           <div className=" text-center text-sm px-4 text-[#444957]">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry standard dummy text
-            ever since the 1500s, when an unknown printer took a galley....
+            industry. Lorem Ipsum has been the industry standard dummy text ever
+            since the 1500s, when an unknown printer took a galley....
           </div>
         </div>
         <div className=" h-[28rem] w-64 flex flex-col space-y-6  items-center rounded-2xl border border-gray-600">
@@ -122,8 +122,8 @@ export default function Home() {
           </div>
           <div className=" text-center text-sm px-4 text-[#444957]">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry standard dummy text
-            ever since the 1500s, when an unknown printer took a galley....
+            industry. Lorem Ipsum has been the industry standard dummy text ever
+            since the 1500s, when an unknown printer took a galley....
           </div>
         </div>
         <div className=" h-[28rem] w-64 flex flex-col space-y-6  items-center rounded-2xl border border-gray-600">
@@ -140,9 +140,58 @@ export default function Home() {
           </div>
           <div className=" text-center text-sm px-4 text-[#444957]">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry standard dummy text
-            ever since the 1500s, when an unknown printer took a galley....
+            industry. Lorem Ipsum has been the industry standard dummy text ever
+            since the 1500s, when an unknown printer took a galley....
           </div>
+        </div>
+        <div className=" mt-2">
+          {" "}
+          <Button className="mb-6">\</Button>
+        </div>
+      </div>
+      <div className=" h-full flex flex-col space-y-6 items-center  bg-[#F8F8F8]">
+        <Image
+          src="/food-truck.png"
+          alt="food truck picture"
+          className=" mt-5 rounded-3xl"
+          width={75}
+          height={100}
+        />
+        <div className=" flex flex-col items-center space-y-8 ">
+          <div className="text-[#0E2368] flex flex-col space-y-2 w-3/4 font-bold text-md text-left">
+            <div>Contact Us</div>
+
+            <div className=" font-[400] text-sm text-[#646874]">
+              Lorem Ipsum Pvt Ltd.5/1, Magalton Road, Phartosh Gate near YTM
+              Market, XYZ-343434
+            </div>
+            <div className=" font-[400] text-sm text-[#646874]">
+              example2020@gmail.com
+            </div>
+            <div className=" font-[400] text-sm text-[#646874]">
+              (904) 443-0343
+            </div>
+          </div>
+          <div className="text-[#0E2368] flex flex-col space-y-2 w-3/4 font-bold text-md text-left">
+            <div>More</div>
+            <div className=" font-[400] text-sm text-[#646874]">
+              About Us
+            </div>
+            <div className=" font-[400] text-sm text-[#646874]">
+              Products
+            </div>
+            <div className=" font-[400] text-sm text-[#646874]">
+              Career
+            </div>
+            <div className=" font-[400] text-sm text-[#646874]">
+              Contact Us
+            </div>
+          </div>
+          <div className="">
+          <div className=" mb-3 font-[400] text-sm text-[#646874]">
+          © 2022 Food Truck Example
+            </div>
+            </div>
         </div>
       </div>
     </>
