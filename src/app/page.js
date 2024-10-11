@@ -90,7 +90,7 @@ export default function Home() {
         <div className="text-[#0E2368] font-bold text-3xl text-center">
           Latest Articles
         </div>
-        <div className=" h-[28rem] w-64 flex flex-col space-y-6  items-center rounded-2xl border border-gray-600">
+        <div className=" h-[30rem] w-72 flex flex-col space-y-4 justify-center  items-center rounded-2xl border border-gray-600">
           <Image
             src="/tomato.jpeg"
             alt="tomato picture"
@@ -107,8 +107,22 @@ export default function Home() {
             industry. Lorem Ipsum has been the industry standard dummy text ever
             since the 1500s, when an unknown printer took a galley....
           </div>
+
+          <Button
+            _hover={{
+              background: "red.500",
+              color: "white",
+            }}
+            w="40"
+            color="gray.600"
+            border="2px"
+            rounded="full"
+            variant="outline"
+          >
+            Read More
+          </Button>
         </div>
-        <div className=" h-[28rem] w-64 flex flex-col space-y-6  items-center rounded-2xl border border-gray-600">
+        <div className=" h-[30rem] w-72 flex flex-col space-y-4  items-center rounded-2xl border border-gray-600">
           <Image
             src="/snack.jpeg"
             alt="snack picture"
@@ -125,8 +139,21 @@ export default function Home() {
             industry. Lorem Ipsum has been the industry standard dummy text ever
             since the 1500s, when an unknown printer took a galley....
           </div>
+          <Button
+            _hover={{
+              background: "red.500",
+              color: "white",
+            }}
+            w="40"
+            color="gray.600"
+            border="2px"
+            rounded="full"
+            variant="outline"
+          >
+            Read More
+          </Button>
         </div>
-        <div className=" h-[28rem] w-64 flex flex-col space-y-6  items-center rounded-2xl border border-gray-600">
+        <div className=" h-[30rem] w-72 flex flex-col space-y-4  items-center rounded-2xl border border-gray-600">
           <Image
             src="/post-workout.jpeg"
             alt="post workout picture"
@@ -143,6 +170,19 @@ export default function Home() {
             industry. Lorem Ipsum has been the industry standard dummy text ever
             since the 1500s, when an unknown printer took a galley....
           </div>
+          <Button
+            _hover={{
+              background: "red.500",
+              color: "white",
+            }}
+            w="40"
+            color="gray.600"
+            border="2px"
+            rounded="full"
+            variant="outline"
+          >
+            Read More
+          </Button>
         </div>
         <div className=" mt-2">
           {" "}
@@ -174,24 +214,16 @@ export default function Home() {
           </div>
           <div className="text-[#0E2368] flex flex-col space-y-2 w-3/4 font-bold text-md text-left">
             <div>More</div>
-            <div className=" font-[400] text-sm text-[#646874]">
-              About Us
-            </div>
-            <div className=" font-[400] text-sm text-[#646874]">
-              Products
-            </div>
-            <div className=" font-[400] text-sm text-[#646874]">
-              Career
-            </div>
-            <div className=" font-[400] text-sm text-[#646874]">
-              Contact Us
-            </div>
+            <div className=" font-[400] text-sm text-[#646874]">About Us</div>
+            <div className=" font-[400] text-sm text-[#646874]">Products</div>
+            <div className=" font-[400] text-sm text-[#646874]">Career</div>
+            <div className=" font-[400] text-sm text-[#646874]">Contact Us</div>
           </div>
           <div className="">
-          <div className=" mb-3 font-[400] text-sm text-[#646874]">
-          © 2022 Food Truck Example
+            <div className=" mb-3 font-[400] text-sm text-[#646874]">
+              © 2022 Food Truck Example
             </div>
-            </div>
+          </div>
         </div>
       </div>
     </>
