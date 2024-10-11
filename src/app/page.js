@@ -4,7 +4,7 @@ import { Button } from "@chakra-ui/react";
 export default function Home() {
   return (
     <>
-      <div className="relative">
+      <div className="relative h-screen space-y-32 flex-col">
         {/* First section: Images and Button stacked vertically, aligned to the right */}
         <div className="relative flex flex-col items-end ">
           <Button
@@ -37,7 +37,7 @@ export default function Home() {
         </div>
 
         {/* Second section (Heading, Description, and Button) */}
-        <div className="mt-8 flex-col items-center justify-center">
+        <div className=" flex-col items-center justify-center">
           <div className=" font-bold text-4xl px-16 text-center text-[#0E2368]">
             Discover the <span className="text-[#E23744]">Best</span> Food and
             Drinks
@@ -54,7 +54,7 @@ export default function Home() {
               }}
               color="white"
               rounded="full"
-              className="mt-6"
+              className="mt-10"
             >
               Explore Now!
             </Button>
