@@ -24,15 +24,15 @@ export default function Home() {
             src="/pizza-image.jpg"
             alt="pizza image"
             className=" -mt-6 rounded-bl-[140px] z-10"
-            width={420}
-            height={350}
+            width={413}
+            height={378}
           />
           <Image
             src="/vector.png"
             alt="vector art"
             className="absolute right-0 z-20"
-            width={420}
-            height={370}
+            width={426}
+            height={375}
           />
         </div>
 
@@ -99,7 +99,7 @@ export default function Home() {
             width={200}
             height={100}
           />
-          <div className="text-[#0E2368] font-bold text-md text-center">
+          <div className="text-[#0E2368] font-bold text-md text-center"> 
             Grilled Tomatoes at Home
           </div>
           <div className=" text-center text-sm px-4 text-[#444957]">
@@ -189,15 +189,15 @@ export default function Home() {
           <Button className="mb-6">\</Button>
         </div>
       </div>
-      <div className=" h-full flex flex-col space-y-6 items-center  bg-[#F8F8F8]">
+      <div className=" h-full xl:flex-row xl:space-x-12 flex flex-col space-y-6 items-center  bg-[#F8F8F8]">
         <Image
           src="/food-truck.png"
           alt="food truck picture"
-          className=" mt-5 rounded-3xl"
+          className=" mt-5 xl:h-[125px] xl:w-[161px] xl:ml-10 rounded-3xl"
           width={75}
           height={100}
         />
-        <div className=" flex flex-col items-center space-y-8 ">
+        <div className=" flex flex-col xl:flex-row  items-center space-y-8 ">
           <div className="text-[#0E2368] flex flex-col space-y-2 w-3/4 font-bold text-md text-left">
             <div>Contact Us</div>
 
